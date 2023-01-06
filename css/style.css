@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background-color: #201b2c;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00ced1;
+    padding: 2rem 0;
+}
+
+.header-title{
+    font-size: 2.5rem;
+}
+
+header p{
+    font-size: 1.2rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-login{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visionary-technology{
+    width: 35rem;
+}
+
+.login{
+    background-color:  #372d53;
+    width: 30vw;
+    border-radius: .4rem;
+    box-shadow: .5px .5px .4rem #1a1a1a;
+    padding: 30px;
+    text-align: center;
+}
+
+.login-title{
+    font-size: 1.6rem;
+    color: #00ced1;
+    margin-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input label{
+    margin-bottom: 3px;
+    text-align:start;
+}
+
+.input input{
+    border: 0;
+    background-color:  #655198;
+    height: 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #1a1a1a;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.input input::placeholder{
+    color: #f0f0f0;
+}
+
+.loginBtn{
+    margin-top: 20px;
+    width: 14rem;
+    height: 2.4rem;
+    color: #201b2c;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #00ced1;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: .5px .5px 5px#00ced1;
+}
+
+.loginBtn:hover { 
+  background-color: #09afb2;
+  box-shadow: .5px .5px 5px#09afb2;
+  transition: .6s;
+}
+
+.loginBtn:active {
+  background: #2e7d7e;
+  box-shadow: .5px .5px 5px#2e7d7e;
+  transition: .6s;
+}
+
+.loginBtn:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+  transition: .6s;
+}
+
+.loginLink{
+    font-size: .9rem;
+    margin-top: 20px;
+}
+
+.loginLink a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.loginLink a:hover{
+    color: #00ced1;
+}
+
+.cadastro{
+    text-align: center;
+    background-color:  #372d53;
+    width: 30vw;
+    border-radius: .4rem;
+    box-shadow: .5px .5px .4rem #1a1a1a;
+    padding: 30px;
+
+}
+
+.cadastro-title{
+    font-size: 1.6rem;
+    color: #00ced1;
+    margin-bottom: 10px;
+}
+
+.cadastroBtn{
+    margin-top: 20px;
+    width: 14rem;
+    height: 2.4rem;
+    color: #201b2c;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #00ced1;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: .5px .5px 5px#00ced1;
+}
+
+.cadastroBtn:hover { 
+  background-color: #09afb2;
+  box-shadow: .5px .5px 5px#09afb2;
+  transition: .6s;
+}
+
+.cadastroBtn:active {
+  background: #2e7d7e;
+  box-shadow: .5px .5px 5px#2e7d7e;
+  transition: .6s;
+}
+
+.cadastroBtn:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+  transition: .6s;
+}
+
+.none{
+    display: none;
+}
+
+.errosCadastro{
+    color: rgb(225, 27, 27);
+    text-align: start;
+    font-size: .9rem;
+}
+
+.errosCadastro ul{
+    list-style: none;
+}
+
+.errosLogin{
+    color: rgb(225, 27, 27);
+    text-align: start;
+    font-size: .9rem;
+}
+
+.errosLogin ul{
+    list-style: none;
+}

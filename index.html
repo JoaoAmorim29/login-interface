@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Tecnologia</h1>
+        <p>Inovar é a nossa natureza</p>
+    </header>
+
+    <main>
+        <div class="image">
+           <img class="visionary-technology" src="/img/visionary-technology-animate.svg" alt="visionary-technology-animate">
+        </div>
+
+        <div class="cadastro-login">
+            <div class="login">
+                <h3 class="login-title">Login</h3>
+
+                <div class="login-inputs">
+                    <form>
+                        <div class="input">
+                            <label for="loginEmail">Email:</label>
+                            <input type="text" name="loginEmail" id="loginEmail" placeholder="Email">
+                        </div>
+    
+                        <div class="input">
+                            <label for="loginSenha">Senha:</label>
+                            <input type="password" name="loginSenha" id="loginSenha" placeholder="Senha">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="errosLogin">
+                    <ul>
+                    </ul>
+                </div>
+
+                <button class="loginBtn">Entrar</button>
+                
+                <div class="loginLink">
+                    <a onclick="troca()">Ainda não possui uma conta? Cadastrar-se</a>
+                </div>
+            </div>
+
+            <div class="cadastro none">
+                <h3 class="cadastro-title">Cadastrar-se</h3>
+
+                <div class="cadastro-inputs">
+                    <form>
+                        <div class="input">
+                            <label for="cadastroNome">Nome:</label>
+                            <input type="text" name="cadastroNome" id="cadastroNome" placeholder="Nome:">
+                        </div>
+    
+                        <div class="input">
+                            <label for="cadastroEmail">Email:</label>
+                            <input type="text" name="cadastroEmail" id="cadastroEmail" placeholder="Email">
+                        </div>
+    
+                        <div class="input">
+                            <label for="cadastroSenha">Senha:</label>
+                            <input type="password" name="cadastroSenha" id="cadastroSenha" placeholder="Senha">
+                        </div>
+    
+                        <div class="input">
+                            <label for="cadastroConfirme">Confirme sua senha:</label>
+                            <input type="password" name="cadastroConfirme" id="cadastroConfirme" placeholder="Confirme">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="errosCadastro">
+                    <ul>
+                    </ul>
+                </div>
+
+                <button class="cadastroBtn">Cadastrar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/login.js"></script>
+    <script src="/js/cadastro.js"></script>
+    <script src="/js/troca.js"></script>
+</body>
+</html>
