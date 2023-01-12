@@ -271,3 +271,21 @@ main{
         width: 60vw;
     }
 }
+
+@media screen and (max-width: 450px){
+    .header-title{
+        font-size: 1.8rem;
+    }
+
+    .image img{
+        width: 70%;
+    }
+
+    .login{
+        width: 75vw;
+    }
+
+    .cadastro{
+        width: 75vw;
+    }
+}
