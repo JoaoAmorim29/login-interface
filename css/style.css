@@ -40,6 +40,10 @@ main{
     align-items: center;
 }
 
+.image img{
+    width: 90%;
+}
+
 .cadastro-login{
     width: 50%;
     display: flex;
@@ -211,4 +215,18 @@ main{
 
 .errosLogin ul{
     list-style: none;
+}
+
+@media screen and (max-width: 1044px){
+    .loginBtn{
+        width: 12em;
+    }
+
+    .cadastroBtn{
+        width: 12em;
+    }
+
+    .loginLink{
+        font-size: .85rem;
+    }
 }
