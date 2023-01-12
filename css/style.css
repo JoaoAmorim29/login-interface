@@ -230,3 +230,30 @@ main{
         font-size: .85rem;
     }
 }
+
+@media screen and (max-width: 901px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro-login{
+        width: 100%;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .image img{
+        width: 40%;
+    }
+
+    .login{
+        width: 50vw;
+    }
+
+    .cadastro{
+        width: 50vw;
+    }
+}
